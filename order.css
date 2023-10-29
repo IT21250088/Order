@@ -1,0 +1,261 @@
+.head {
+    background-color: rgb(167, 97, 35);
+    opacity: 70%;
+    font-size: 1vw;
+    margin-top: -35;
+    width: 100%; 
+}
+
+body, h1, h2, h3, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #f5f5f5;
+    background-image: url(./Images/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/*div class styling*/
+#logo{
+    float: left;
+}
+
+#note{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 1000;
+    color: white;
+}
+
+
+/*navi bar*/
+ul#navi{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5c3607;
+    font-size: 1vw;
+}
+
+li#navi{
+    float: left;
+}
+
+li a{
+    color: white;
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    padding: 12px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li a:hover{
+    background-color: rgb(185, 167, 11);
+}
+
+li a.active{
+    background-color: #2196F3;
+    color: white;
+}
+
+#navi input[type=text]{
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 6px;
+    margin-bottom: 3px;
+    border: none;
+    font-size: 15px;
+}
+
+@media screen and(max-width : 600px){
+    #navi a,#navi input[type = text]{
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+
+    #navi input[type=text]{
+        border: 1px solid white;
+    }
+    
+}
+
+.container {
+    text-align: center;
+    padding: 50px 0;
+    background-color:None;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.container1 {
+    margin: 20px auto;
+    margin-top: -16px;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #a18b62;
+    opacity: 90%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0.3, 0.5);
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+#ode {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.container1.input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+
+
+
+.btn1 {
+    display: inline-block;
+    background-color: #d59813;
+    color: rgb(0, 0, 0);
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 150px;
+    transition: background-color 0.3s;
+}
+
+.btn1:hover {
+    background-color: #8d6c1a;
+}
+/* Style for the container2 class */
+.container2 {
+    width: 80%; 
+    margin: 0 auto; 
+    background-color:none; 
+    padding: 20px; 
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the title class inside container2 */
+.container2 .title {
+    font-size: 18px; /* Font size of the title */
+    font-weight: bold; /* Make the title bold */
+    color: #f24e35; /* Text color */
+    text-align: center; /* Center align the text */
+}
+
+/* Style for the paragraph inside the title class */
+.container2 .title p {
+    margin: 10px 0; /* Add some margin to the paragraph */
+    line-height: 1.5; /* Set the line height for better readability */
+}
+
+/*footer styling*/
+footer {
+    background-color:  rgb(167, 97, 35);
+    opacity: 70%;
+    height: 220px;
+    padding: 0; 
+    font-size: 1vw;
+    margin: 0; 
+    width: 100%;
+}
+
+.first{
+    color: white;
+    float: left;
+}
+
+.second{
+    color: white;
+    float: none;
+    margin-left: 500px;
+    text-decoration: none;
+}
+
+.third{
+    color: white;
+    float: right;
+}
+
+h5{
+  font-size: 1vw;
+}
+
+.foot{
+  text-decoration: none;
+  color: white;
+}
+
+.fa{
+  padding: 10px;
+  font-size: 30px;
+  width: 23px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover{
+  opacity: 0.7s;
+}
+
+.fa-facebook{
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter{
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: purple;
+  color: white;
+}
+  
